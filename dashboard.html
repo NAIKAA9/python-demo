@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hospital Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body style="font-family:Arial; background:#f4f6f9;">
+
+<h2>Hospital Statistics Dashboard</h2>
+
+<canvas id="diseaseChart" width="400" height="200"></canvas>
+
+<script>
+const ctx = document.getElementById('diseaseChart');
+
+new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: {{ labels|safe }},
+        datasets: [{
+            label: 'Number of Patients',
+            data: {{ values|safe }},
+            borderWidth: 1
+        }]
+    }
+});
+</script>
+
+</body>
+</html>
