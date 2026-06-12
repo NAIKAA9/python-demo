@@ -2,7 +2,7 @@
 Google Site Verification:
 <meta name="google-site-verification" content="FW7rcxi_mwc3X5nxhlJqMHrgi2c0XjySaZqLthbYjjE" />
 <meta name="google-site-verification" content="ad5xSF75uh-eU1Bq95IE2SqvErlO_qvwZWoad6x56-o" />
-
+<meta name="google-site-verification" content="wLUzJlltphNNuI_lnhYceFv1vQJ68mCj_PU7YclaPVI" />
 GEO Coordinates Pin:
 <meta name="geo.region" content="IN-TG" />
 <meta name="geo.placename" content="Kothagudem" />
